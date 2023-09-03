@@ -18,7 +18,7 @@
                     <span class="h2">Онлайн запис</span>
                     <img src="./assets/icons/arrow-right.svg" alt="">
                 </button>
-                <div class="appointment__blur"></div>
+                <div class="blur appointment__blur"></div>
             </div>
             <div class="flex justify-content-between gap-4 mt-3">
                 <div class="flex flex-column justify-content-between">
@@ -84,16 +84,16 @@
 
         <section class="page about" id="aboutAnchor">
             <img src="./assets/texts/logo-white.svg" alt="logo">
-            <div class="mt-9">
+            <div class="mt-8">
                 <img src="./assets/texts/about-us.svg" alt="about">
             </div>
-            <div class="flex gap-4 mt-7">
+            <div class="about__top flex align-items-start gap-4 mt-5">
                 <img src="./assets/icons/black-big-logo.svg" alt="logo">
                 <div class="about__description">
                     <h1 class="h1">Lorem ipsum</h1>
-                    <h3 class="h3">Lorem ipsum dolor sit amet consectetur. Adipiscing elementum lectus sed sem iaculis. Tristique pellentesque feugiat diam magna elit. Quis suspendisse non ante elit fermentum. Posuere posuere ridiculus ut non sit rutrum at lectus egestas.</h3>
+                    <h3 class="h3 mt-1">Lorem ipsum dolor sit amet consectetur. Adipiscing elementum lectus sed sem iaculis. Tristique pellentesque feugiat diam magna elit. Quis suspendisse non ante elit fermentum. Posuere posuere ridiculus ut non sit rutrum at lectus egestas.</h3>
                 </div>
-                <nav class="nav">
+                <nav class="nav z-index-1">
                     <ul class="nav__list flex flex-column align-items-end gap-1">
                         <li class="nav__item h3 item-1">
                             <a class="nav__link flex gap-1 align-items-center" href="#">
@@ -146,15 +146,297 @@
                     </ul>
                 </nav>
             </div>
+            <div class="flex gap-4">
+                <div class="flex flex-column">
+                    <img class="appointment__small-map mb-1" src="./assets/img/small-map.jpg" alt="small map">
+                    <span class="span">50.46024196314206,</span>
+                    <span class="span">30.580779096653345</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="./assets/img/middle-room.jpg" alt="room">
+                    <img src="./assets/img/middle-room.jpg" alt="room">
+                    <img src="./assets/img/middle-room.jpg" alt="room">
+                </div>
+                <div class="blur about__blur"></div>
+            </div>
+            <div class="flex justify-content-center mt-2 ml-8">
+                <div class="progress">
+                    <div class="progress__inner"></div>
+                </div>
+            </div>
         </section>
+
         <section class="page price">
-            
+            <img src="./assets/texts/logo-black.svg" alt="logo">
+            <div class="mt-6">
+                <img src="./assets/texts/pricec.svg" alt="logo">
+            </div>
+            <div class="flex justify-content-between mt-5">
+                <table class="price__table">
+                    <tr>
+                        <th class="h3">ПОСЛУГИ</th>
+                        <th class="h3">BARBER</th>
+                        <th class="h3">TOP BARBER</th>
+                    </tr>
+                    <tr>
+                        <td class="p">Чоловіча стрижка</td>
+                        <td class="p">500</td>
+                        <td class="p">600</td>
+                    </tr>
+                    <tr>
+                        <td class="p">Чоловіча стрижка</td>
+                        <td class="p">500</td>
+                        <td class="p">600</td>
+                    </tr>
+                    <tr>
+                        <td class="p">Чоловіча стрижка</td>
+                        <td class="p">500</td>
+                        <td class="p">600</td>
+                    </tr>
+                    <tr>
+                        <td class="p">Чоловіча стрижка</td>
+                        <td class="p">500</td>
+                        <td class="p">600</td>
+                    </tr>
+                    <tr>
+                        <td class="p">Чоловіча стрижка</td>
+                        <td class="p">500</td>
+                        <td class="p">600</td>
+                    </tr>
+                    <tr>
+                        <td class="p">Чоловіча стрижка</td>
+                        <td class="p">500</td>
+                        <td class="p">600</td>
+                    </tr>
+                    <tr>
+                        <td class="p">Чоловіча стрижка</td>
+                        <td class="p">500</td>
+                        <td class="p">600</td>
+                    </tr>
+                    <tr>
+                        <td class="p">Чоловіча стрижка</td>
+                        <td class="p">500</td>
+                        <td class="p">600</td>
+                    </tr>
+                </table>
+                <nav class="nav z-index-1">
+                    <ul class="nav__list flex flex-column align-items-end gap-1">
+                        <li class="nav__item h3 item-1">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Головна</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <svg width="38" height="38" viewBox="0 0 38 38" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.15625 32.6562C4.15625 33.3131 4.68691 33.8438 5.34375 33.8438H32.6562C33.3131 33.8438 33.8438 33.3131 33.8438 32.6562V17.0703H4.15625V32.6562ZM32.6562 6.82812H26.4219V4.45312C26.4219 4.28984 26.2883 4.15625 26.125 4.15625H24.0469C23.8836 4.15625 23.75 4.28984 23.75 4.45312V6.82812H14.25V4.45312C14.25 4.28984 14.1164 4.15625 13.9531 4.15625H11.875C11.7117 4.15625 11.5781 4.28984 11.5781 4.45312V6.82812H5.34375C4.68691 6.82812 4.15625 7.35879 4.15625 8.01562V14.5469H33.8438V8.01562C33.8438 7.35879 33.3131 6.82812 32.6562 6.82812Z" fill="#696969"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-2 active-nav-about">
+                            <a class="nav__link flex gap-1 align-items-center" href="#aboutAnchor">
+                                <span>Послуги</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0129 23.3005C11.0129 20.7798 8.96938 18.7363 6.44863 18.7363C3.92787 18.7363 1.8844 20.7798 1.8844 23.3005C1.8844 25.8213 3.92787 27.8647 6.44863 27.8647C8.96938 27.8647 11.0129 25.8213 11.0129 23.3005Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M29.27 23.3008C29.27 20.78 27.2265 18.7365 24.7057 18.7365C22.185 18.7365 20.1415 20.78 20.1415 23.3008C20.1415 25.8215 22.185 27.865 24.7057 27.865C27.2265 27.865 29.27 25.8215 29.27 23.3008Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.40588 2.00085L21.4802 20.0752" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M19.3501 10.4142L27.7483 2.00079" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.67435 20.0753L15.5774 14.1722" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-3">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Галерея</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <img src="./assets/icons/galery.svg" alt="blog">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-4">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Блог</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <img src="./assets/icons/blog.svg" alt="blog">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-5">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Контакти</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <img src="./assets/icons/location.svg" alt="blog">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex justify-content-center mt-2 ml-8">
+                <div class="progress">
+                    <div class="progress__inner"></div>
+                </div>
+            </div>
         </section>
+
         <section class="page masters" >
-        
+            <img src="./assets/texts/logo-white.svg" alt="logo">
+            <div>
+                <img class="mt-5" src="./assets/texts/masters.svg" alt="logo">
+            </div>
+            <div class="flex mt-5">
+                <div class="masters__desc-carousel flex flex-column gap-4">
+                    <h3 class="h3">Обери свого барбера та Приходь до нас</h3>
+                    <div class="masters__card flex flex-column gap-1">
+                        <h2 class="h2 masters__name">Георгій</h2>
+                        <h3 class="h3 masters__rank">Top barber</h3>
+                        <span class="span masters__description mt-2">Lorem ipsum dolor sit amet consectetur. Dui enim ornare tincidunt duis pulvinar aliquam. Leo velit faucibus egestas egestas massa.</span>
+                    </div>
+                    <div class="masters__arrows flex justify-content-between">
+                        <img src="./assets/icons/previos-card.svg" alt="previos">
+                        <img src="./assets/icons/next-card.svg" alt="next">
+                    </div>
+                </div>
+                <div class="masters__carousel flex gap-2">
+                    <img src="./assets/img/master-1.jpg" alt="master">
+                    <img src="./assets/img/master-1.jpg" alt="master">
+                </div>
+                <div class="blur masters__blur"></div>
+                <nav class="nav z-index-1">
+                    <ul class="nav__list flex flex-column align-items-end gap-1">
+                        <li class="nav__item h3 item-1">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Головна</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <svg width="38" height="38" viewBox="0 0 38 38" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.15625 32.6562C4.15625 33.3131 4.68691 33.8438 5.34375 33.8438H32.6562C33.3131 33.8438 33.8438 33.3131 33.8438 32.6562V17.0703H4.15625V32.6562ZM32.6562 6.82812H26.4219V4.45312C26.4219 4.28984 26.2883 4.15625 26.125 4.15625H24.0469C23.8836 4.15625 23.75 4.28984 23.75 4.45312V6.82812H14.25V4.45312C14.25 4.28984 14.1164 4.15625 13.9531 4.15625H11.875C11.7117 4.15625 11.5781 4.28984 11.5781 4.45312V6.82812H5.34375C4.68691 6.82812 4.15625 7.35879 4.15625 8.01562V14.5469H33.8438V8.01562C33.8438 7.35879 33.3131 6.82812 32.6562 6.82812Z" fill="#696969"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-2 active-nav-about">
+                            <a class="nav__link flex gap-1 align-items-center" href="#aboutAnchor">
+                                <span>Послуги</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0129 23.3005C11.0129 20.7798 8.96938 18.7363 6.44863 18.7363C3.92787 18.7363 1.8844 20.7798 1.8844 23.3005C1.8844 25.8213 3.92787 27.8647 6.44863 27.8647C8.96938 27.8647 11.0129 25.8213 11.0129 23.3005Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M29.27 23.3008C29.27 20.78 27.2265 18.7365 24.7057 18.7365C22.185 18.7365 20.1415 20.78 20.1415 23.3008C20.1415 25.8215 22.185 27.865 24.7057 27.865C27.2265 27.865 29.27 25.8215 29.27 23.3008Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.40588 2.00085L21.4802 20.0752" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M19.3501 10.4142L27.7483 2.00079" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.67435 20.0753L15.5774 14.1722" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-3">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Галерея</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <img src="./assets/icons/galery.svg" alt="blog">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-4">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Блог</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <img src="./assets/icons/blog.svg" alt="blog">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-5">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Контакти</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <img src="./assets/icons/location.svg" alt="blog">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex justify-content-center mt-2 ml-8">
+                <div class="progress">
+                    <div class="progress__inner"></div>
+                </div>
+            </div>
         </section>
+
         <section class="page contacts">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3079.054644605768!2d30.578204176882075!3d50.46024538665806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDI3JzM2LjkiTiAzMMKwMzQnNTAuOCJF!5e1!3m2!1sen!2sua!4v1693728122345!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+                <img src="./assets/texts/logo-white.svg" alt="logo">
+            </div>
+            <div class="mt-6">
+                <img src="./assets/texts/contacts.svg" alt="contacts">
+            </div>
+            <div class="flex gap-2 mt-5 align-items-end">
+                <div>
+                    <div class="blur contacts__blur"></div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3079.054644605768!2d30.578204176882075!3d50.46024538665806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDI3JzM2LjkiTiAzMMKwMzQnNTAuOCJF!5e1!3m2!1sen!2sua!4v1693728122345!5m2!1sen!2sua" width="754" height="575" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contacts__info flex flex-column gap-2 justify-content-end">
+                    <h3 class="h3">м. Київ, вулиця микільсько - слобідська, 15</h3>
+                    <h3 class="h3">Телефон: <br> +380 (50) 888 88 88</h3>
+                    <h3 class="h3">Instagram: @brave,cut</h3>
+                </div>
+                <nav class="nav z-index-1">
+                    <ul class="nav__list flex flex-column align-items-end gap-1">
+                        <li class="nav__item h3 item-1">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Головна</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <svg width="38" height="38" viewBox="0 0 38 38" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.15625 32.6562C4.15625 33.3131 4.68691 33.8438 5.34375 33.8438H32.6562C33.3131 33.8438 33.8438 33.3131 33.8438 32.6562V17.0703H4.15625V32.6562ZM32.6562 6.82812H26.4219V4.45312C26.4219 4.28984 26.2883 4.15625 26.125 4.15625H24.0469C23.8836 4.15625 23.75 4.28984 23.75 4.45312V6.82812H14.25V4.45312C14.25 4.28984 14.1164 4.15625 13.9531 4.15625H11.875C11.7117 4.15625 11.5781 4.28984 11.5781 4.45312V6.82812H5.34375C4.68691 6.82812 4.15625 7.35879 4.15625 8.01562V14.5469H33.8438V8.01562C33.8438 7.35879 33.3131 6.82812 32.6562 6.82812Z" fill="#696969"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-2 active-nav-about">
+                            <a class="nav__link flex gap-1 align-items-center" href="#aboutAnchor">
+                                <span>Послуги</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.0129 23.3005C11.0129 20.7798 8.96938 18.7363 6.44863 18.7363C3.92787 18.7363 1.8844 20.7798 1.8844 23.3005C1.8844 25.8213 3.92787 27.8647 6.44863 27.8647C8.96938 27.8647 11.0129 25.8213 11.0129 23.3005Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M29.27 23.3008C29.27 20.78 27.2265 18.7365 24.7057 18.7365C22.185 18.7365 20.1415 20.78 20.1415 23.3008C20.1415 25.8215 22.185 27.865 24.7057 27.865C27.2265 27.865 29.27 25.8215 29.27 23.3008Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.40588 2.00085L21.4802 20.0752" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M19.3501 10.4142L27.7483 2.00079" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.67435 20.0753L15.5774 14.1722" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-3">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Галерея</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <img src="./assets/icons/galery.svg" alt="blog">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-4">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Блог</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <img src="./assets/icons/blog.svg" alt="blog">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav__item h3 item-5">
+                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                                <span>Контакти</span>
+                                <div class="nav__icon flex align-items-center justify-content-center">
+                                    <img src="./assets/icons/location.svg" alt="blog">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex justify-content-center mt-2 ml-8">
+                <div class="progress">
+                    <div class="progress__inner"></div>
+                </div>
+            </div>
         </section>
     </div>
     <script src="index.js"></script>

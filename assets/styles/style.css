@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 
@@ -18,7 +18,9 @@ h3,
 h4,
 p,
 span,
-a {
+a,
+th,
+td {
     font-family: Helvetica;
     padding: 0;
     margin: 0;
@@ -51,6 +53,8 @@ a {
     background-size: cover;
 }
 
+/* Appointment */
+
 .appointment {
     background-image: url('../../assets/img/bg-1.jpg');
     color: #FFF;
@@ -71,23 +75,29 @@ a {
     text-transform: uppercase;
 }
 
-.appointment__blur {
+.blur {
     position: relative;
     z-index: 0;
     width: 0;
     height: 0;
+}
+
+.appointment__blur {
     top: -23rem;
     left: -40rem;
 }
 
-.appointment__blur::before {
+.blur::before {
     content: '';
     display: inline-block;
-    width: 466px;
-    height: 466px;
     border: 2px solid rgba(255, 255, 255, 0.34);
     background: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(5px);
+}
+
+.appointment__blur::before {
+    width: 466px;
+    height: 466px;
 }
 
 .appointment__description {
@@ -132,9 +142,30 @@ a {
     border: 2.5px solid #FFF;
 }
 
+/* About */
+
 .about {
     background-image: url('../../assets/img/bg-2.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about__top {
+    max-height: 200px;
+}
+
+.about__description h3 {
+    font-weight: 400;
+    letter-spacing: 0.44px;
+}
+
+.about nav {
+    position: relative;
+    top: 3rem;
+}
+
+.about .progress__inner {
+    width: 102px;
 }
 
 .active-nav-about,
@@ -145,18 +176,145 @@ a {
     border: 2.5px solid #000;
 }
 
+.about__blur {
+    top: -0.1rem;
+    left: -30rem
+}
 
+.about__blur::before {
+    width: 591px;
+    height: 238px;
+}
+
+/* Price */
 
 .price {
     background-image: url('../../assets/img/bg-3.jpg');
     background-size: cover;
 }
+
+.price__table {
+    border: 2px solid #000;
+    border-collapse: collapse;
+    background-color: #FFF;
+}
+
+.price__table th {
+    padding: 20px 100px 14px;
+}
+
+.price__table th:not(:last-child) {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.price__table th:last-child {
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+    background-color: #000;
+}
+
+.price__table td {
+    padding: 13px 0;
+    text-align: center;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right: 2px solid #000;
+}
+
+.price__table td:last-child {
+    background-color: #000;
+    color: #FFF;
+    border: 2px solid #000;
+}
+
+.price .progress__inner {
+    width: 156px;
+}
+
+/* Masters */
+
 .masters {
     background-color: #000000;
+    color: #FFF;
 }
+
+.masters__desc-carousel {
+    max-width: 269px;
+}
+
+.masters__card {
+    border: 2px solid #3F890E;
+    padding: 76px 22px 22px;
+    box-sizing: border-box;
+}
+
+.masters__name {
+    text-transform: uppercase;
+}
+
+.masters__rank {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.masters__description {
+    line-height: 122.6%;
+}
+
+.masters__arrows {
+    cursor: pointer;
+}
+
+.masters__carousel img {
+    max-width: 426px;
+    max-height: 568px;
+}
+
+.masters__blur {
+    left: -19rem;
+    top: -5rem;
+}
+
+.masters__blur::before {
+    width: 588px;
+    height: 646px;
+
+}
+
+.masters .progress__inner {
+    width: 208px;
+}
+
+/* Contacts */
+
 .contacts {
     background-image: url('../../assets/img/bg-4.jpg');
     background-size: cover;
+    color: #FFF;
+}
+
+.contacts__blur {
+    top: -1.4rem;
+    left: -3.4rem;
+}
+
+.contacts__blur::before {
+    width: 401px;
+    height: 254px;
+}
+
+.contacts .progress__inner {
+    width: 100%;
+}
+
+.contacts .progress::after {
+    content: '';
+}
+
+.contacts__info {
+    max-width: 283px;
+    text-transform: uppercase;
 }
 
 .progress {
@@ -175,7 +333,7 @@ a {
     content: url('../../assets/icons/scroll-icon.svg');
     position: relative;
     left: 17rem;
-    top: -9rem;
+    top: -9.5rem;
     z-index: 1;
 }
 
