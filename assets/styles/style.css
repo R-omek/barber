@@ -2,7 +2,8 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -51,7 +52,7 @@ a {
 }
 
 .appointment {
-    background-image: url('./assets/img/bg-1.jpg');
+    background-image: url('../../assets/img/bg-1.jpg');
     color: #FFF;
 }
 
@@ -132,18 +133,29 @@ a {
 }
 
 .about {
-    background-image: url('./assets/img/bg-2.jpg');
+    background-image: url('../../assets/img/bg-2.jpg');
     background-size: cover;
 }
+
+.active-nav-about,
+.active-nav-about a {
+    color: #000000;
+}
+.active-nav-about > a .nav__icon {
+    border: 2.5px solid #000;
+}
+
+
+
 .price {
-    background-image: url('./assets/img/bg-3.jpg');
+    background-image: url('../../assets/img/bg-3.jpg');
     background-size: cover;
 }
 .masters {
     background-color: #000000;
 }
 .contacts {
-    background-image: url('./assets/img/bg-4.jpg');
+    background-image: url('../../assets/img/bg-4.jpg');
     background-size: cover;
 }
 
@@ -160,7 +172,7 @@ a {
 }
 
 .progress::after {
-    content: url('./assets/icons/scroll-icon.svg');
+    content: url('../../assets/icons/scroll-icon.svg');
     position: relative;
     left: 17rem;
     top: -9rem;
