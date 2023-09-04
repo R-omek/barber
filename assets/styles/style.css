@@ -241,11 +241,20 @@ td {
 
 .masters__desc-carousel {
     max-width: 269px;
+    overflow: hidden;
+    position: relative;
+}
+
+.masters__card-wrapper {
+    display: flex;
+    gap: 30px;
+    transition: transform 0.5s ease;
 }
 
 .masters__card {
     border: 2px solid #3F890E;
     padding: 76px 22px 22px;
+    min-width: 269px;
     box-sizing: border-box;
 }
 
@@ -266,19 +275,36 @@ td {
     cursor: pointer;
 }
 
+.masters__carousel {
+    position: relative;
+    right: -7rem;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.masters__carousel-wrapper {
+    width: fit-content;
+    transition: all .5s;
+}
+
+.remove-gray {
+    filter: grayscale(0%) !important;
+}
+
 .masters__carousel img {
     max-width: 426px;
-    max-height: 568px;
+    max-height: 530px;
+    filter: grayscale(100%);
 }
 
 .masters__blur {
-    left: -19rem;
+    left: -6rem;
     top: -5rem;
 }
 
 .masters__blur::before {
     width: 588px;
-    height: 646px;
+    height: 606px;
 
 }
 
