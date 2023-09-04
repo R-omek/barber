@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <section class="page appointment">
+        <section class="page appointment" id="mainAnchor">
             <img src="./assets/texts/logo-white.svg" alt="logo">
             <div class="flex align-items-end gap-2 mt-8">
                 <img class="z-index-1" src="./assets/texts/appointment.svg" alt="appointment">
@@ -33,7 +33,7 @@
                 <nav class="nav">
                     <ul class="nav__list flex flex-column align-items-end gap-1">
                         <li class="nav__item active-nav h3 item-1">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mainAnchor">
                                 <span>Головна</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/calendar.svg" alt="blog">
@@ -49,7 +49,7 @@
                             </a>
                         </li>
                         <li class="nav__item h3 item-3">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#priceAnchor">
                                 <span>Галерея</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/galery.svg" alt="blog">
@@ -57,7 +57,7 @@
                             </a>
                         </li>
                         <li class="nav__item h3 item-4">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mastersAnchor">
                                 <span>Блог</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/blog.svg" alt="blog">
@@ -65,7 +65,7 @@
                             </a>
                         </li>
                         <li class="nav__item h3 item-5">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#contactsAnchor">
                                 <span>Контакти</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/location.svg" alt="blog">
@@ -96,7 +96,7 @@
                 <nav class="nav z-index-1">
                     <ul class="nav__list flex flex-column align-items-end gap-1">
                         <li class="nav__item h3 item-1">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mainAnchor">
                                 <span>Головна</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <svg width="38" height="38" viewBox="0 0 38 38" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -120,7 +120,7 @@
                             </a>
                         </li>
                         <li class="nav__item h3 item-3">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#priceAnchor">
                                 <span>Галерея</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/galery.svg" alt="blog">
@@ -128,7 +128,7 @@
                             </a>
                         </li>
                         <li class="nav__item h3 item-4">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mastersAnchor">
                                 <span>Блог</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/blog.svg" alt="blog">
@@ -136,7 +136,7 @@
                             </a>
                         </li>
                         <li class="nav__item h3 item-5">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#contactsAnchor">
                                 <span>Контакти</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/location.svg" alt="blog">
@@ -166,7 +166,7 @@
             </div>
         </section>
 
-        <section class="page price">
+        <section class="page price" id="priceAnchor">
             <img src="./assets/texts/logo-black.svg" alt="logo">
             <div class="mt-6">
                 <img src="./assets/texts/pricec.svg" alt="logo">
@@ -222,7 +222,7 @@
                 <nav class="nav z-index-1">
                     <ul class="nav__list flex flex-column align-items-end gap-1">
                         <li class="nav__item h3 item-1">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mainAnchor">
                                 <span>Головна</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <svg width="38" height="38" viewBox="0 0 38 38" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -231,30 +231,35 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="nav__item h3 item-2 active-nav-about">
+                        <li class="nav__item h3 item-2">
                             <a class="nav__link flex gap-1 align-items-center" href="#aboutAnchor">
                                 <span>Послуги</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M11.0129 23.3005C11.0129 20.7798 8.96938 18.7363 6.44863 18.7363C3.92787 18.7363 1.8844 20.7798 1.8844 23.3005C1.8844 25.8213 3.92787 27.8647 6.44863 27.8647C8.96938 27.8647 11.0129 25.8213 11.0129 23.3005Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M29.27 23.3008C29.27 20.78 27.2265 18.7365 24.7057 18.7365C22.185 18.7365 20.1415 20.78 20.1415 23.3008C20.1415 25.8215 22.185 27.865 24.7057 27.865C27.2265 27.865 29.27 25.8215 29.27 23.3008Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M3.40588 2.00085L21.4802 20.0752" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M19.3501 10.4142L27.7483 2.00079" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M9.67435 20.0753L15.5774 14.1722" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M11.0129 23.3005C11.0129 20.7798 8.96938 18.7363 6.44863 18.7363C3.92787 18.7363 1.8844 20.7798 1.8844 23.3005C1.8844 25.8213 3.92787 27.8647 6.44863 27.8647C8.96938 27.8647 11.0129 25.8213 11.0129 23.3005Z" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M29.27 23.3008C29.27 20.78 27.2265 18.7365 24.7057 18.7365C22.185 18.7365 20.1415 20.78 20.1415 23.3008C20.1415 25.8215 22.185 27.865 24.7057 27.865C27.2265 27.865 29.27 25.8215 29.27 23.3008Z" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.40588 2.00085L21.4802 20.0752" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M19.3501 10.4142L27.7483 2.00079" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.67435 20.0753L15.5774 14.1722" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </div>
                             </a>
                         </li>
-                        <li class="nav__item h3 item-3">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                        <li class="nav__item active-nav-about h3 item-3">
+                            <a class="nav__link flex gap-1 align-items-center" href="#priceAnchor">
                                 <span>Галерея</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
-                                    <img src="./assets/icons/galery.svg" alt="blog">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26 2H5C3.34315 2 2 3.34315 2 5V26C2 27.6569 3.34315 29 5 29H26C27.6569 29 29 27.6569 29 26V5C29 3.34315 27.6569 2 26 2Z" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10 12C11.1046 12 12 11.1046 12 10C12 8.89543 11.1046 8 10 8C8.89543 8 8 8.89543 8 10C8 11.1046 8.89543 12 10 12Z" fill="#000" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M28.0357 29V16.9464L21.5 12L4.99999 29" fill="#000"/>
+                                        <path d="M28.0357 29V16.9464L21.5 12L4.99999 29" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </div>
                             </a>
                         </li>
                         <li class="nav__item h3 item-4">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mastersAnchor">
                                 <span>Блог</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/blog.svg" alt="blog">
@@ -262,7 +267,7 @@
                             </a>
                         </li>
                         <li class="nav__item h3 item-5">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#contactsAnchor">
                                 <span>Контакти</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/location.svg" alt="blog">
@@ -279,7 +284,7 @@
             </div>
         </section>
 
-        <section class="page masters" >
+        <section class="page masters" id="mastersAnchor">
             <img src="./assets/texts/logo-white.svg" alt="logo">
             <div>
                 <img class="mt-4" src="./assets/texts/masters.svg" alt="logo">
@@ -320,7 +325,7 @@
                 <nav class="nav z-index-1">
                     <ul class="nav__list flex flex-column align-items-end gap-1">
                         <li class="nav__item h3 item-1">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mainAnchor">
                                 <span>Головна</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <svg width="38" height="38" viewBox="0 0 38 38" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -329,38 +334,41 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="nav__item h3 item-2 active-nav-about">
+                        <li class="nav__item h3 item-2">
                             <a class="nav__link flex gap-1 align-items-center" href="#aboutAnchor">
                                 <span>Послуги</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M11.0129 23.3005C11.0129 20.7798 8.96938 18.7363 6.44863 18.7363C3.92787 18.7363 1.8844 20.7798 1.8844 23.3005C1.8844 25.8213 3.92787 27.8647 6.44863 27.8647C8.96938 27.8647 11.0129 25.8213 11.0129 23.3005Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M29.27 23.3008C29.27 20.78 27.2265 18.7365 24.7057 18.7365C22.185 18.7365 20.1415 20.78 20.1415 23.3008C20.1415 25.8215 22.185 27.865 24.7057 27.865C27.2265 27.865 29.27 25.8215 29.27 23.3008Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M3.40588 2.00085L21.4802 20.0752" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M19.3501 10.4142L27.7483 2.00079" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M9.67435 20.0753L15.5774 14.1722" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M11.0129 23.3005C11.0129 20.7798 8.96938 18.7363 6.44863 18.7363C3.92787 18.7363 1.8844 20.7798 1.8844 23.3005C1.8844 25.8213 3.92787 27.8647 6.44863 27.8647C8.96938 27.8647 11.0129 25.8213 11.0129 23.3005Z" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M29.27 23.3008C29.27 20.78 27.2265 18.7365 24.7057 18.7365C22.185 18.7365 20.1415 20.78 20.1415 23.3008C20.1415 25.8215 22.185 27.865 24.7057 27.865C27.2265 27.865 29.27 25.8215 29.27 23.3008Z" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.40588 2.00085L21.4802 20.0752" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M19.3501 10.4142L27.7483 2.00079" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.67435 20.0753L15.5774 14.1722" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </div>
                             </a>
                         </li>
                         <li class="nav__item h3 item-3">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#priceAnchor">
                                 <span>Галерея</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/galery.svg" alt="blog">
                                 </div>
                             </a>
                         </li>
-                        <li class="nav__item h3 item-4">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                        <li class="nav__item h3 active-nav item-4">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mastersAnchor">
                                 <span>Блог</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
-                                    <img src="./assets/icons/blog.svg" alt="blog">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.1034 4.79309H4.68966C3.97631 4.79309 3.29219 5.07646 2.78778 5.58087C2.28337 6.08528 2 6.7694 2 7.48275V26.3103C2 27.0237 2.28337 27.7078 2.78778 28.2122C3.29219 28.7166 3.97631 29 4.68966 29H23.5172C24.2306 29 24.9147 28.7166 25.4191 28.2122C25.9235 27.7078 26.2069 27.0237 26.2069 26.3103V16.8965" stroke="#FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M23.9861 2.81929C24.5369 2.29471 25.284 2 26.0629 2C26.8419 2 27.5889 2.29471 28.1397 2.81929C28.6906 3.34387 29 4.05535 29 4.79722C29 5.53909 28.6906 6.25057 28.1397 6.77515L14.9865 19.3021L9.44827 20.6207L10.8328 15.3462L23.9861 2.81929Z" fill="#FFF" stroke="#FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                
                                 </div>
                             </a>
                         </li>
                         <li class="nav__item h3 item-5">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#contactsAnchor">
                                 <span>Контакти</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/location.svg" alt="blog">
@@ -377,7 +385,7 @@
             </div>
         </section>
 
-        <section class="page contacts">
+        <section class="page contacts" id="contactsAnchor">
             <div>
                 <img src="./assets/texts/logo-white.svg" alt="logo">
             </div>
@@ -397,7 +405,7 @@
                 <nav class="nav z-index-1">
                     <ul class="nav__list flex flex-column align-items-end gap-1">
                         <li class="nav__item h3 item-1">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mainAnchor">
                                 <span>Головна</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <svg width="38" height="38" viewBox="0 0 38 38" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -406,41 +414,48 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="nav__item h3 item-2 active-nav-about">
+                        <li class="nav__item h3 item-2">
                             <a class="nav__link flex gap-1 align-items-center" href="#aboutAnchor">
                                 <span>Послуги</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M11.0129 23.3005C11.0129 20.7798 8.96938 18.7363 6.44863 18.7363C3.92787 18.7363 1.8844 20.7798 1.8844 23.3005C1.8844 25.8213 3.92787 27.8647 6.44863 27.8647C8.96938 27.8647 11.0129 25.8213 11.0129 23.3005Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M29.27 23.3008C29.27 20.78 27.2265 18.7365 24.7057 18.7365C22.185 18.7365 20.1415 20.78 20.1415 23.3008C20.1415 25.8215 22.185 27.865 24.7057 27.865C27.2265 27.865 29.27 25.8215 29.27 23.3008Z" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M3.40588 2.00085L21.4802 20.0752" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M19.3501 10.4142L27.7483 2.00079" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M9.67435 20.0753L15.5774 14.1722" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M11.0129 23.3005C11.0129 20.7798 8.96938 18.7363 6.44863 18.7363C3.92787 18.7363 1.8844 20.7798 1.8844 23.3005C1.8844 25.8213 3.92787 27.8647 6.44863 27.8647C8.96938 27.8647 11.0129 25.8213 11.0129 23.3005Z" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M29.27 23.3008C29.27 20.78 27.2265 18.7365 24.7057 18.7365C22.185 18.7365 20.1415 20.78 20.1415 23.3008C20.1415 25.8215 22.185 27.865 24.7057 27.865C27.2265 27.865 29.27 25.8215 29.27 23.3008Z" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.40588 2.00085L21.4802 20.0752" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M19.3501 10.4142L27.7483 2.00079" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.67435 20.0753L15.5774 14.1722" stroke="#696969" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
                                 </div>
                             </a>
                         </li>
                         <li class="nav__item h3 item-3">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#priceAnchor">
                                 <span>Галерея</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
-                                    <img src="./assets/icons/galery.svg" alt="blog">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26 2H5C3.34315 2 2 3.34315 2 5V26C2 27.6569 3.34315 29 5 29H26C27.6569 29 29 27.6569 29 26V5C29 3.34315 27.6569 2 26 2Z" stroke="#696969" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10 12C11.1046 12 12 11.1046 12 10C12 8.89543 11.1046 8 10 8C8.89543 8 8 8.89543 8 10C8 11.1046 8.89543 12 10 12Z" fill="#696969" stroke="#696969" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M28.0357 29V16.9464L21.5 12L4.99999 29" fill="#696969"/>
+                                        <path d="M28.0357 29V16.9464L21.5 12L4.99999 29" stroke="#696969" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                
                                 </div>
                             </a>
                         </li>
                         <li class="nav__item h3 item-4">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                            <a class="nav__link flex gap-1 align-items-center" href="#mastersAnchor">
                                 <span>Блог</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
                                     <img src="./assets/icons/blog.svg" alt="blog">
                                 </div>
                             </a>
                         </li>
-                        <li class="nav__item h3 item-5">
-                            <a class="nav__link flex gap-1 align-items-center" href="#">
+                        <li class="nav__item active-nav h3 item-5">
+                            <a class="nav__link flex gap-1 align-items-center" href="#contactsAnchor">
                                 <span>Контакти</span>
                                 <div class="nav__icon flex align-items-center justify-content-center">
-                                    <img src="./assets/icons/location.svg" alt="blog">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 13.2632L28 0L14.7368 28L11.7895 16.2105L0 13.2632Z" fill="#FFF"/>
+                                    </svg>                                
                                 </div>
                             </a>
                         </li>

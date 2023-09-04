@@ -24,6 +24,7 @@ td {
     font-family: Helvetica;
     padding: 0;
     margin: 0;
+    letter-spacing: 0.44px;
 }
 
 .h1 {
@@ -118,6 +119,16 @@ td {
 .nav__list {
     list-style: none;
     padding-left: 0;
+}
+
+.nav__item {
+    transition: all .3s ease-in-out;
+}
+
+.nav__item:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.06);
+    color: #3b3b3b;
 }
 
 .nav__item a {
