@@ -10,6 +10,7 @@ body, html {
     max-width: 1440px;
     margin: 0 auto;
     scroll-snap-type: y mandatory;
+    overflow: hidden;
 }
 
 h1,
@@ -157,7 +158,7 @@ td {
 
 .about {
     background-image: url('../../assets/img/bg-2.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -383,11 +384,113 @@ td {
     .appointment__room {
         max-width: 615px;
     }
+
+    .about__title {
+        margin-top: 35px !important;
+    }
+
+    .about .md-logo {
+        margin-top: 20px;
+    }
+
+    .price__title {
+        margin-top: 30px !important;
+    }
+
+    .masters__content,
+    .masters__title img {
+        margin-top: 0 !important;
+    }
+
+    .masters__carousel img {
+        max-height: 419px; 
+    }
+
+    .masters__desc-carousel {
+        gap: 10px !important;
+    }
+
+    .masters__card {
+        padding: 30px 15px;
+    }
+
+    .masters__arrows img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .contacts iframe {
+        height: 347px;
+        width: 650px;
+    }
+
+    .contacts__title {
+        margin-top: 30px !important;
+    }
+
+    .contacts__blur::before {
+        width: 300px;
+        height: 200px;
+    }
+
+    .contacts__content {
+        margin-top: 0 !important;
+    }
 }
 
-@media  (max-height: 850px) {
+@media  (max-height: 875px) {
+    .appointment__top {
+        margin-top: 30px !important;
+    }
+
     .appointment__room {
         max-width: 515px;
         max-height: 300px;
+    }
+
+    .about {
+        background-position: 0 -80px;
+    }
+
+    .about__title img {
+        height: 100px;
+    }
+
+    .about__bottom,
+    .about__bottom img,
+    .about__blur::before {
+        height: 150px;
+    }
+
+    .price__content {
+        margin-top: 5px !important;
+    }
+
+    .price__title img{
+        height: 100px;
+    }
+
+    .price__table td,
+    .price__table th {
+        padding: 5px 40px;
+    }
+}
+
+@media  (max-height: 775px) {
+    .appointment__title {
+        height: 100px;
+    }
+    
+    .about nav {
+        top: -1rem;
+    }
+
+    .price__title img{
+        height: 100px;
+    }
+
+    .price__table td,
+    .price__table th {
+        padding: 5px 40px;
     }
 }
