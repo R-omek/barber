@@ -18,6 +18,10 @@
     align-items: end;
 }
 
+.align-self-start {
+    align-self: flex-start;
+}
+
 .justify-content-start {
     justify-content: start;
 }
@@ -32,6 +36,10 @@
 
 .justify-content-between {
     justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .gap-1 {

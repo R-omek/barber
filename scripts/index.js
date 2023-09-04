@@ -63,4 +63,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Set the initial active page
     pages[0].classList.add("active");
+
+    // Anchor navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+    
+            const targetId = this.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+    
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+                pages.forEach((el) => el.classList.remove('active'))
+                targetSection.classList.add("active")
+            }
+        });
+    });
 });
