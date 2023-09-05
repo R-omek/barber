@@ -1,0 +1,17 @@
+.appointment,
+.about,
+.price,
+.masters,
+.contacts {
+    animation: 1000s background-move infinite; 
+    background-repeat: repeat;
+}
+
+@keyframes background-move {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 10000px;
+    }
+}

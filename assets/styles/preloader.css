@@ -1,0 +1,26 @@
+#preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+#preloader svg {
+    animation-name: hide;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
