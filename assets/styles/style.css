@@ -368,6 +368,11 @@ td {
     text-transform: uppercase;
 }
 
+.contacts__info .h3 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .progress {
     width: 250px;
     height: 8px;
