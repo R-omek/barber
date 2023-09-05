@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <section class="page appointment" id="mainAnchor">
-            <img class="z-index-1 align-self-start" src="./assets/texts/logo-white.svg" alt="logo">
+            <img class="logo z-index-1 align-self-start" src="./assets/texts/logo-white.svg" alt="logo">
             <div class="appointment__top flex align-items-end gap-2 mt-8">
                 <img class="appointment__title z-index-1" src="./assets/texts/appointment.svg" alt="appointment">
                 <button class="appointment__button z-index-1">
@@ -23,10 +23,12 @@
             <div class="appointment__content flex justify-content-between gap-4 mt-3">
                 <div class="flex flex-column justify-content-between">
                     <h3 class="appointment__description h3 z-index-1">Обери свого барбера та Приходь до нас</h3>
-                    <div class="flex flex-column">
+                    <div class="appointment__location flex flex-column">
                         <img class="appointment__small-map mb-1" src="./assets/img/small-map.jpg" alt="small map">
-                        <span class="span">50.46024196314206,</span>
-                        <span class="span">30.580779096653345</span>
+                        <div>
+                            <span class="span">50.46024196314206,</span>
+                            <span class="span">30.580779096653345</span>
+                        </div>
                     </div>
                 </div>
                 <img class="appointment__room z-index-1" src="./assets/img/room.jpg" alt="room">
@@ -83,7 +85,7 @@
         </section>
 
         <section class="page about" id="aboutAnchor">
-            <img  class="z-index-1 align-self-start" src="./assets/texts/logo-white.svg" alt="logo">
+            <img  class="logo z-index-1 align-self-start" src="./assets/texts/logo-white.svg" alt="logo">
             <div class="about__title mt-8">
                 <img class="lg-text" src="./assets/texts/about-us.svg" alt="about">
                 <div class="about__top flex align-items-start gap-4 mt-5">
@@ -149,7 +151,7 @@
                 </div>
             </div>
             <div class="about__bottom flex gap-4">
-                <div class="flex flex-column">
+                <div class="about__location flex flex-column">
                     <img class="appointment__small-map mb-1" src="./assets/img/small-map.jpg" alt="small map">
                     <span class="span">50.46024196314206,</span>
                     <span class="span">30.580779096653345</span>
@@ -169,7 +171,7 @@
         </section>
 
         <section class="page price" id="priceAnchor">
-            <img  class="z-index-1 align-self-start" src="./assets/texts/logo-black.svg" alt="logo">
+            <img  class="logo z-index-1 align-self-start" src="./assets/texts/logo-black.svg" alt="logo">
             <div class="price__title mt-6">
                 <img src="./assets/texts/pricec.svg" alt="logo">
             </div>
@@ -287,7 +289,7 @@
         </section>
 
         <section class="page masters" id="mastersAnchor">
-            <img  class="z-index-1 align-self-start" src="./assets/texts/logo-white.svg" alt="logo">
+            <img  class="logo z-index-1 align-self-start" src="./assets/texts/logo-white.svg" alt="logo">
             <div class="masters__title">
                 <img class="mt-4" src="./assets/texts/masters.svg" alt="logo">
             </div>
@@ -311,7 +313,7 @@
                             <span class="span masters__description mt-2">Lorem ipsum dolor sit amet consectetur. Dui enim ornare tincidunt duis pulvinar aliquam. Leo velit faucibus egestas egestas massa.</span>
                         </div>
                     </div>
-                    <div class="masters__arrows flex justify-content-between">
+                    <div class="masters__arrows flex justify-content-between z-index-1">
                         <img id="prev" class="masters__arr-previos" src="./assets/icons/previos-card.svg" alt="previos">
                         <img id="next" class="masters__arr-next" src="./assets/icons/next-card.svg" alt="next">
                     </div>
@@ -389,7 +391,7 @@
 
         <section class="page contacts" id="contactsAnchor">
             <div>
-                <img  class="z-index-1 align-self-start" src="./assets/texts/logo-white.svg" alt="logo">
+                <img  class="logo z-index-1 align-self-start" src="./assets/texts/logo-white.svg" alt="logo">
             </div>
             <div class="contacts__title mt-5">
                 <img src="./assets/texts/contacts.svg" alt="contacts">
@@ -402,7 +404,7 @@
                 <div class="contacts__info flex flex-column gap-2 justify-content-end">
                     <h3 class="h3">м. Київ, вулиця микільсько - слобідська, 15</h3>
                     <h3 class="h3">Телефон: <br> +380 (50) 888 88 88</h3>
-                    <h3 class="h3">Instagram: @brave,cut</h3>
+                    <h3 class="h3">Instagram: <a href="https://instagram.com/brave.cut?igshid=MzRlODBiNWFlZA==">@brave,cut</a></h3>
                 </div>
                 <nav class="nav z-index-1">
                     <ul class="nav__list flex flex-column align-items-end gap-1">
