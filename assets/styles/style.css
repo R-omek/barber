@@ -596,7 +596,7 @@ td {
 }
 
 
-@media  (max-height: 720px) {
+@media  (max-height: 715px) {
     .page {
         justify-content: space-evenly !important;
         padding: 70px 20px !important;
